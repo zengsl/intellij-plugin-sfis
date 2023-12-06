@@ -30,6 +30,9 @@ generate zip file to share or install in the path "build/distributions/xxxxx.zip
 
 [https://www.ideaplugin.com/idea-docs/](https://www.ideaplugin.com/idea-docs/)
 
+[https://intellij-support.jetbrains.com/hc/en-us/community/topics/200366979-IntelliJ-IDEA-Open-API-and-Plugin-Development
+](https://intellij-support.jetbrains.com/hc/en-us/community/topics/200366979-IntelliJ-IDEA-Open-API-and-Plugin-Development)
+
 [IDEA插件开发](https://www.bilibili.com/video/BV1Zi4y1b7fw/?share_source=copy_web&vd_source=c71c79a0e59361cee136f3f1c1b16180)
 
 [直播回放 | 9月29日「JetBrains码上道」| 主题：从零开始，开发插件](https://www.bilibili.com/video/BV1rv4y147fb/?share_source=copy_web&vd_source=c71c79a0e59361cee136f3f1c1b16180)
