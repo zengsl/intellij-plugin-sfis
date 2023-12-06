@@ -20,7 +20,13 @@ runIde task extends the JavaExec Gradle task – all properties available in the
 
 generate zip file to share or install in the path "build/distributions/xxxxx.zip"
 
+## Tips
 
+ [UI inspect](https://plugins.jetbrains.com/docs/intellij/internal-ui-inspector.html)
+
+Centering the cursor on a UI element and pressing Ctrl/Cmd+Alt when clicking the left mouse button reveals the properties of the Swing component.
+
+> pressing `control + option` when you use Mac 
 
 ## References
 
