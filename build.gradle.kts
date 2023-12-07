@@ -27,7 +27,7 @@ repositories {
 
 dependencies{
     implementation("commons-io:commons-io:2.15.1")
-
+    testImplementation(kotlin("test"))
 }
 
 // Configure Gradle IntelliJ Plugin
@@ -70,5 +70,9 @@ tasks {
         jvmArgs("-javaagent:/iriswork/tools/JetBrains/jetbra/ja-netfilter.jar=jetbrains")
         jvmArgs("--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED")
         jvmArgs("--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED")
+    }
+
+   test {
+        useJUnitPlatform()
     }
 }

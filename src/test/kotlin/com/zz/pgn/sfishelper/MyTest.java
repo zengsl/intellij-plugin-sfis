@@ -1,4 +1,4 @@
-package com.zzz.pgn.sfishelper.db;
+package com.zz.pgn.sfishelper;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
