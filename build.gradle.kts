@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.zzz.pgn"
-version = "1.0-SNAPSHOT"
+version = "1.0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -35,7 +35,6 @@ dependencies{
 intellij {
     version.set("2022.2.5")
     type.set("IU") // Target IDE Platform
-
     plugins.set(listOf("com.intellij.database"))
 }
 
@@ -53,7 +52,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("222")
-        untilBuild.set("232.*")
+        untilBuild.set("233.*")
     }
 
     signPlugin {
@@ -66,6 +65,7 @@ tasks {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
 
+    /*用于测试*/
     runIde {
         jvmArgs("-javaagent:/iriswork/tools/JetBrains/jetbra/ja-netfilter.jar=jetbrains")
         jvmArgs("--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED")
